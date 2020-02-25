@@ -1,0 +1,446 @@
+body{
+
+	font-family: 'Roboto', sans-serif;   
+}
+
+
+/*--------section top_nav start---------*/
+.top_navbar{
+    background-color: #F0F0F0;
+}
+
+a.nav_item1,a.nav_item2,a.nav_item3{
+    color: #000;
+    text-decoration: none;
+}
+/*--------section top_nav end---------*/
+
+/*--------section main_nav start---------*/
+
+.nav-link{
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+   .home_nav{
+     padding-left: 50px;
+   }
+}
+/*--------section main_nav end---------*/
+
+/*--------section email_banner end---------*/
+.email_banner{
+    background-color: #ffba24;
+}
+
+.email_banner p{
+    font-size: 20px;
+}
+  
+.email_pricing{
+    background-color: #424242;
+}
+
+
+a.nav_price1,a.nav_price2,a.nav_price3{
+    color: #ffba24;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    }
+
+.email_pricing_month{
+    background-color: #000;
+}
+
+.email_pricing_month p{
+    color: #ffba24;
+    font-size: 15px;
+}
+
+span.white-text{
+    color: #fff;
+    font-size: 30px;
+}
+
+span.WebRupee{
+    color: #ffba24;
+    font-size: 30px;
+    padding: 0px 8px 1px 8px;
+}
+
+span.price{
+    color: #ffba24;
+    font-size: 30px;
+}
+
+.text-block {
+    position: absolute;
+    width: 100%;
+    top:680px;
+}
+.email_input{
+    background-color: #F0F0F0;
+}
+
+@media only screen and (max-width: 600px) {
+    .text-block {
+        top:420px;
+    }
+    a.nav_price1,a.nav_price2,a.nav_price3 {
+        font-size: 7px;
+    }
+    span.white-text,span.WebRupee,span.price,span.year{
+        font-size: 15px;
+    }
+    .email_banner h1{
+        font-size: 15px;
+    }
+    .email_banner p{
+        font-size: 10px;
+    }
+    .get_started{
+        font-size: 20px;
+    }
+}
+/*--------section email_banner end---------*/
+
+/*--------section faq start---------*/
+p.p_faq{
+    font-size: 14px;
+}
+
+/*--------section faq end---------*/
+
+/*--------section ssl_banner start---------*/
+.ssl_banner{
+     background-color: #bf2e1a;
+     color: #fff;
+}
+
+.sslb_text{
+     font-size: 45px;
+}
+
+.sslp_text{
+     font-size: 18px;
+}
+
+.ssl_pricing_month{
+     background-color: #000;
+}
+
+span.year{
+    color: #ffba24;
+}
+
+.view_plans{
+     background-color: #38c919;
+     color: #000;
+}
+
+.ssl_pricing_month {
+    position: absolute;
+    width: 100%;
+    top:620px;
+}
+
+@media only screen and (max-width: 600px) {
+    .sslb_text{
+        font-size: 18px;
+    }
+    .sslp_text{
+        font-size: 14px;
+    }
+    .banner_img{
+        margin-top: 0px;
+    }
+    .ssl_pricing_month{
+        top:820px;
+    }
+    .view_plans{
+        height: 30px;
+        width: 80px;
+        font-size: 10px;
+    }
+  }
+/*--------section ssl_banner end---------*/
+
+
+/*--------section Select_certificate start---------*/
+
+.Select_certificate{
+    background-color: #F0F0F0;
+}
+
+hr.new {
+    border: 1px solid red;
+}
+
+.select_box {
+    background-color: #B0B0B0;
+}
+/*--------section Select_certificate end---------*/
+
+
+/*--------section cloude_banner start---------*/
+.cloude_banner{
+    background-color: #40C2FF;
+    color: #fff;
+}
+.fa-bolt,.fa-level-up{
+    color: blue;
+}
+
+ span.cloud{
+     color: blue;
+ }
+.cloud_pricing{
+    background-color: #000;
+    position: absolute;
+    top: 580px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+   .cloud_pricing{
+     top: 792px;
+   }
+   .cloudtext{
+    font-size: 20px;
+   }
+  .wcloudtext{
+    font-size: 25px;
+  }
+}
+
+.cloudtext{
+    color: #40C2FF;
+}
+/*--------section cloude_banner end---------*/
+
+
+/*--------section cloud_faq start---------*/
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.01);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+/*--------section cloud_faq end---------*/
+
+
+/*--------section site_banner start---------*/
+.site_banner{
+    background-color: #c01e29;
+    color: #fff;
+}
+
+.site_pricing_month {
+    background-color: #000;
+    position: absolute;
+    width: 100%;
+    top:680px;
+}
+/*--------section site_banner end---------*/
+
+/*--------section how_its_work start---------*/
+.how_its_work{
+    background-color: #F0F0F0;
+}
+.howbtn{
+    border-radius: 20px;
+}
+/*--------section how_its_work end---------*/
+
+/*--------section trust_SiteLock start---------*/
+.carousel-item.active {
+    display:block;
+}
+
+.carousel-control-prev-icon {
+    background-image: none;
+}
+.carousel-control-next-icon {
+    background-image: none;
+}
+
+.trust_text{
+color: #c01e29;
+}
+
+.trust_SiteLock{
+    background-color: #F0F0F0;
+}
+/*--------section trust_SiteLock end---------*/
+
+/*--------section sitelock_plans start---------*/
+.th_text{
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    table {
+        width:50px;
+   }
+   .site_pricing_month {
+    top: 865px;
+   }
+}
+
+.collapse_table_text{
+  font-style: italic;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+/*--------section sitelock_plans end---------*/
+
+/*--------section code_guard_banner start---------*/
+.code_guard_banner{
+    background-image: url(images/cog-banner-img.png);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    color: #fff;
+    margin-bottom: 150px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .code_guard_banner{
+        margin-bottom: 10px;
+    }
+}
+
+.cog_text{
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.cog_pricing_month {
+    background-color: #000;
+    position: absolute;
+    width: 100%;
+    top:630px;
+}
+/*--------section code_guard_banner end---------*/
+
+/*--------section codeguard_plans start---------*/
+
+.select_box1{
+    background-color: #F0F0F0;
+}
+
+/*--------section codeguard_plans end---------*/
+
+/*--------section codeguard_blockquote start---------*/
+.customers_text{
+ color: #218838;
+}
+
+.blockquote-custom {
+    position: relative;
+    font-size: 1.0rem;
+  }
+  
+.blockquote-custom-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -25px;
+    left: 50px;
+}
+  /*--------section codeguard_blockquote ends---------*/
+
+
+/*--------section g_suite start---------*/
+/* .g_suite_banner{
+    background-image: url(images/gs_bg2.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat; 
+    background-size: cover;
+} */
+
+.gsuite-text1,.gsuite-text2{
+    color: #585858;
+}
+
+.gsuite-text3{
+    color: #585858;
+    font-size: 20px;
+}
+.GWebRupee{
+    font-size:15px
+}
+
+.Gprice{
+    font-size: 25px;
+    font-weight: bold;
+    color: #4285f4;
+}
+.Gmonth{
+    color:#4285f4
+}
+
+.gs_tabs_text{
+    font-size: 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.and{
+    font-size: 18px;
+}
+/*--------section g_suite end---------*/
+
+/*--------section contact_banner start---------*/
+.contact_banner{
+    background-image: url(images/contact_banner.png);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.t_contact{
+    font-size: 37px;
+}
+
+.p_contact{
+    font-size: 18px;
+}
+/*--------section contact_banner end---------*/
+
+
+/*--------section footer start---------*/
+.footer{
+    background-color: #F0F0F0;
+}
+
+.footer-list-item a{
+    text-decoration: none;
+    color: #000;
+}
+
+.fa-facebook-square,.fa-twitter{
+    color: #000;
+}
+/*--------section footer end---------*/
+
+
